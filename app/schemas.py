@@ -143,3 +143,14 @@ class ResPayment(BaseModel):
 
     class Config:
         orm_mode = True
+
+class Token(basemodel):
+    access_token: str
+    token_type: str
+
+class TokenData(basemodel):
+    email: str | None = None
+
+class LoginUser(basemodel):
+    email: EmailStr
+    password: str
