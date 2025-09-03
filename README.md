@@ -18,9 +18,6 @@ This project is a learning experience for me, and I'm excited to share it. It se
 *   **SQLAlchemy:** For database interactions.
 *   **Pydantic:** For data validation.
 
-## Getting Started
-
-[Instructions on how to set up and run the project will be added here.]
 
 ---
 
